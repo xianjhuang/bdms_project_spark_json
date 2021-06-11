@@ -16,4 +16,5 @@
    测试group by、count、avg操作，程序记录“聚集”操作所用的时间（ms）
 
 总结：
+
 把json存储为parquet, 可以节省50%左右的存储空间，另外，spark读取parque的效率也远高于直接读取json文件的效率。
