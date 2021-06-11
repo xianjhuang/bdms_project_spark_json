@@ -1,6 +1,6 @@
 # bdms_project_spark_json
 使用方法：
-1. 运行generation.py生成数据集。
+1. 运行generation.py生成数据集。数据集包括200多万行数据，每一行记录即是一个json文件。数据集包括嵌套json、json array结构。
 2. 加载pom.xml中的maven依赖，修改ReadParquet.java和ReadTextJson.java中的文件读取路径，运行代码，进行测试。
 
 测试方案：
